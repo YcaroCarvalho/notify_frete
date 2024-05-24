@@ -42,7 +42,7 @@ while True:
         try:
             carroceria = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[5]/div[2]/div[2]/span/a[1]').text
         except:
-            carroceria = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[6]/div[2]/div[2]/span/a[1]')                                                 
+            carroceria = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[6]/div[2]/div[2]/span/a[1]').text                                                 
 
         try:
             tipo_carga = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[5]/div[2]/div[5]/span[1]').text
