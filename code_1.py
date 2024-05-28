@@ -10,7 +10,7 @@ service = Service()
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=options)
 
-URL = 'https://www.fretebras.com.br/fretes'
+URL = 'https://www.fretebras.com.br/fretes/carga-de-pr/carga-para-mg'
 TOKEN = '7178561915:AAG-hO5uBNdo8JjbQj78cB6myuao2PKIbnU'
 CHAT_ID = '-4197170094'
 bot = telebot.TeleBot(TOKEN)
